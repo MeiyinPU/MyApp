@@ -91,7 +91,6 @@ const reset=()=>{
   return (
     <div className='app'>
       <header className='logo'>
-      <p>Hello workd</p>
         <img alt='logo github' src={githubLogo} className='logo-img' />
       </header>
       <Search
