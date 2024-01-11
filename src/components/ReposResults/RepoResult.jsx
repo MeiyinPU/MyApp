@@ -8,7 +8,6 @@ const RepoResult = ({ name, owner, description }) => {
 
   return (
     <Card>
-    <p>hello world</p>
       <Image src={owner.avatar_url} wrapped ui={false}/>
       <Card.Content>
         <Card.Header>{name}</Card.Header>
