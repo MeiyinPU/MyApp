@@ -16,6 +16,7 @@ function App() {
   //Init repos avec un tableau vide pour eviter l'erreur de undefined sur le repos.items.map
   const [repos, setRepos] = useState([]);
   const [total, setTotal] = useState(0);
+  
   //Gestion du contenu du message, erreur ou pas, et affichage ou pas
   const [hasError, setHasError] = useState(false);
   const [message, setMessage] = useState("");
